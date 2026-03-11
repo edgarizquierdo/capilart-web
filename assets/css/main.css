@@ -4281,4 +4281,22 @@ img{
 
 }
 
+/* =================================
+   CENTRAR ICONOS ACABADOS
+   ================================= */
+
+.icons-grid li{
+    text-align:center;
+}
+
+.icons-grid li img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.icons-grid li h3{
+    text-align:center;
+}
+
 
