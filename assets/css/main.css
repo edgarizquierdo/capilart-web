@@ -4307,4 +4307,23 @@ img{
 overflow-x:hidden;
 }
 
+/* Safari fix - evitar scroll lateral */
+
+body {
+overflow-x: hidden;
+}
+
+#wrapper {
+overflow-x: hidden;
+}
+
+.main {
+overflow-x: hidden;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
 
