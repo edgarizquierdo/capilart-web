@@ -4347,13 +4347,14 @@ font-size:1.2rem;
 
 }
 
-/* Ajuste título solo en móvil */
+/* FIX definitivo título móvil */
 
 @media screen and (max-width:736px){
 
-#header h1{
-font-size:1.7rem;
-letter-spacing:0.02em;
+#header header h1{
+    font-size:1.6rem !important;
+    letter-spacing:0.03em;
+    white-space:nowrap;
 }
 
 }
