@@ -4251,45 +4251,13 @@ img{
     }
 }
 
-/* =========================
-   IMAGEN PROCESO CIRCULAR
-   ========================= */
-
 #micro .foto-micro{
-
-width:320px;
-height:320px;
-
-display:block;
-margin:40px auto;
-
-border-radius:50%;
-
-object-fit:cover;
-
-}
-
-/* evitar que el template la estire */
-#micro img.foto-micro{
-
-width:320px !important;
-height:320px !important;
-
-max-width:none;
-
-}
-
-/* ajuste móvil */
-
-@media screen and (max-width:768px){
-
-#micro .foto-micro{
-
-width:260px;
-height:260px;
-
-}
-
+    display:block;
+    margin:40px auto;
+    max-width:420px;
+    width:100%;
+    height:auto;
+    border-radius:50%;
 }
 
 
