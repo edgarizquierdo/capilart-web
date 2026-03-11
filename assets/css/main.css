@@ -4335,3 +4335,27 @@ white-space:nowrap;
 }
 
 }
+
+/* HERO titulo móvil */
+
+@media screen and (max-width:736px){
+
+#header h1{
+    font-size:2rem;
+    line-height:1.2;
+    letter-spacing:0.05em;
+}
+
+}
+
+@media screen and (max-width:736px){
+
+#header{
+    padding:5rem 1.5rem;
+}
+
+#header p{
+    font-size:1rem;
+}
+
+}
