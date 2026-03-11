@@ -3878,21 +3878,57 @@ margin-bottom:25px;
 
 }
 
-/* CENTRAR ICONOS ACABADOS */
+/* ===== ACABADOS CENTRADO REAL ===== */
 
 .icons-grid li{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
 text-align:center;
+
 }
 
 .icons-grid li img{
+
 display:block;
-margin:0 auto 15px auto;
+margin-bottom:15px;
+
 }
 
 .icons-grid li h3{
-text-align:center;
+
 margin-top:10px;
+text-align:center;
+
 }
+
+.icon-custom{
+
+width:90px;
+margin-bottom:15px;
+
+}
+
+@media (max-width:768px){
+
+.icons-grid li{
+
+padding:40px 20px;
+
+}
+
+.icon-custom{
+
+width:70px;
+
+}
+
+}
+
+
 
 
 
