@@ -4277,4 +4277,8 @@ img{
 
 }
 
+.image.fit img{
+    height:auto !important;
+}
+
 
