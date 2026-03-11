@@ -4265,21 +4265,7 @@ img{
     border-radius:50% !important;
 }
 
-/* =================================
-   FIX CONTENEDOR MÓVIL
-   ================================= */
 
-@media screen and (max-width:768px){
-
-.container{
-    width:100% !important;
-    padding-left:20px;
-    padding-right:20px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-}
 
 /* =================================
    CENTRAR ICONOS ACABADOS
