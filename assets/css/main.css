@@ -4251,30 +4251,30 @@ img{
     }
 }
 
-/* =================================
-   FIX IMAGEN MICROCAPILAR
-   ================================= */
+/* ===== FIX FOTO MICROCAPILAR ===== */
 
 .foto-micro{
-
-width:280px;
-height:280px;
-
-object-fit:cover;
-
-display:block;
-margin:30px auto;
-
-border-radius:50%;
-
+    width:100%;
+    max-width:320px;
+    height:auto;
+    display:block;
+    margin:30px auto;
 }
 
-/* evitar que el template la estire */
+/* evitar deformaciones de HTML5UP */
+.foto-micro img{
+    width:100%;
+    height:auto;
+    object-fit:cover;
+}
 
-.image.fit img.foto-micro{
-width:auto !important;
-max-width:100%;
-height:auto;
+/* asegurar proporción correcta en móvil */
+@media screen and (max-width:768px){
+
+.foto-micro{
+    max-width:260px;
+}
+
 }
 
 
