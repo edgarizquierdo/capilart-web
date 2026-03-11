@@ -4281,4 +4281,41 @@ img{
     height:auto !important;
 }
 
+/* =================================
+   FIX IMAGEN PROCESO MICRO
+   ================================= */
+
+#micro .foto-micro{
+
+display:block;
+margin:30px auto;
+
+width:100%;
+max-width:320px;
+height:auto;
+
+object-fit:cover;
+
+}
+
+/* evitar que el template la estire */
+
+#micro img.foto-micro{
+width:auto !important;
+max-width:320px;
+height:auto !important;
+}
+
+/* ajuste móvil */
+
+@media screen and (max-width:768px){
+
+#micro .foto-micro{
+
+max-width:260px;
+
+}
+
+}
+
 
