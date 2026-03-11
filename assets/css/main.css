@@ -3828,7 +3828,25 @@ font-size:1.3em;
 
 }
 
+/* FIX HERO MOBILE */
 
+@media (max-width:768px){
+
+#header{
+height:auto;
+min-height:80vh;
+padding:80px 20px 40px 20px;
+}
+
+#header:after{
+display:none;
+}
+
+#header header{
+padding-bottom:20px;
+}
+
+}
 
 
 
