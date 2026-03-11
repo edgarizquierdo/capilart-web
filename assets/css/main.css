@@ -3567,5 +3567,268 @@ font-size:16px;
 color:#999;
 }
 
+/* ================================
+   FIX GLOBAL RESPONSIVE
+================================ */
+
+img{
+max-width:100%;
+height:auto;
+display:block;
+}
+
+/* ================================
+   LOGO
+================================ */
+
+.logo-capilart{
+width:200px;
+max-width:80%;
+margin-bottom:20px;
+opacity:.95;
+}
+
+/* ================================
+   FOTO PERFIL
+================================ */
+
+.foto-perfil{
+width:240px;
+height:240px;
+object-fit:cover;
+object-position:center 35%;
+border-radius:50%;
+margin:0 auto 40px auto;
+box-shadow:0 12px 30px rgba(0,0,0,.25);
+border:6px solid #fff;
+}
+
+/* ================================
+   FOTO MICRO
+================================ */
+
+.foto-micro{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:8px solid white;
+margin:40px auto;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+/* ================================
+   GRID CASOS
+================================ */
+
+.cases-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:40px;
+max-width:1000px;
+margin:60px auto 0 auto;
+}
+
+/* ================================
+   SLIDER BEFORE / AFTER
+================================ */
+
+.comparison-container{
+position:relative;
+width:100%;
+max-width:420px;
+aspect-ratio:4/5;
+margin:auto;
+overflow:hidden;
+border-radius:10px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+--pos:50%;
+}
+
+.comparison-container img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.image-before-wrapper{
+position:absolute;
+inset:0;
+overflow:hidden;
+clip-path: inset(0 calc(100% - var(--pos)) 0 0);
+}
+
+.slider{
+position:absolute;
+inset:0;
+width:100%;
+height:100%;
+opacity:0;
+cursor:ew-resize;
+z-index:4;
+}
+
+.comparison-handle{
+position:absolute;
+top:50%;
+left:var(--pos);
+transform:translate(-50%,-50%);
+width:44px;
+height:44px;
+background:white;
+border-radius:50%;
+box-shadow:0 6px 18px rgba(0,0,0,.25);
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:10;
+pointer-events:none;
+}
+
+.comparison-handle::before{
+content:"⇆";
+font-size:18px;
+color:#444;
+}
+
+/* ================================
+   ICONOS ACABADOS
+================================ */
+
+.icon-custom{
+width:90px;
+margin-bottom:15px;
+}
+
+/* ================================
+   INSTAGRAM GRID
+================================ */
+
+.instagram-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+margin-top:40px;
+}
+
+.instagram-grid img{
+width:100%;
+border-radius:8px;
+transition:.3s;
+}
+
+.instagram-grid img:hover{
+transform:scale(1.05);
+}
+
+/* ================================
+   WHATSAPP
+================================ */
+
+.whatsapp-widget{
+position:fixed;
+bottom:25px;
+right:25px;
+z-index:9999;
+display:flex;
+flex-direction:column;
+align-items:flex-end;
+}
+
+.whatsapp-button{
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+transition:.3s;
+}
+
+.whatsapp-button img{
+width:40px;
+height:40px;
+}
+
+.whatsapp-button:hover{
+transform:scale(1.08);
+}
+
+.whatsapp-bubble{
+background:white;
+padding:14px 18px;
+border-radius:14px;
+margin-bottom:14px;
+font-size:14px;
+line-height:1.4;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+max-width:240px;
+position:relative;
+}
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width:768px){
+
+#header{
+height:70vh;
+}
+
+.logo-capilart{
+width:160px;
+}
+
+.foto-perfil{
+width:200px;
+height:200px;
+}
+
+.cases-grid{
+grid-template-columns:1fr;
+gap:35px;
+}
+
+.instagram-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.icon-custom{
+width:70px;
+}
+
+.whatsapp-button{
+width:58px;
+height:58px;
+}
+
+.whatsapp-button img{
+width:34px;
+height:34px;
+}
+
+}
+
+@media (max-width:480px){
+
+.main .container{
+padding:2em 1em;
+}
+
+h1{
+font-size:1.8em;
+}
+
+h2{
+font-size:1.3em;
+}
+
+}
+
+
+
 
 
