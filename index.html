@@ -628,24 +628,41 @@ function closeWhatsappBubble() {
 
 </script>
 
-<button id="scrollTopBtn">↑</button>
+<div id="scrollTop">
+<svg width="20" height="20" viewBox="0 0 24 24">
+<path d="M12 6l-6 6h4v6h4v-6h4z" fill="white"/>
+</svg>
+</div>
 
 <script>
 
-document.getElementById("scrollTopBtn").onclick = function(){
+const scrollBtn = document.getElementById("scrollTop");
+
+window.addEventListener("scroll", function(){
+
+if(window.scrollY > 300){
+scrollBtn.classList.add("visible");
+} else {
+scrollBtn.classList.remove("visible");
+}
+
+});
+
+scrollBtn.addEventListener("click", function(){
 
 window.scrollTo({
 top:0,
 behavior:"smooth"
 });
 
-};
+});
 
 </script>
 
 </body>
 
 </html>
+
 
 
 
