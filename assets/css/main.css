@@ -3936,6 +3936,17 @@ display:none;
 
 }
 
+@media screen and (max-width: 768px){
+
+#micro .image.fit.primary{
+display:none !important;
+height:0 !important;
+margin:0 !important;
+padding:0 !important;
+}
+
+}
+
 
 
 
