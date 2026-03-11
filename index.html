@@ -628,9 +628,37 @@ function closeWhatsappBubble() {
 
 </script>
 
+<button id="scrollTopBtn">↑</button>
+
+<script>
+
+const btn = document.getElementById("scrollTopBtn");
+
+window.onscroll = function(){
+
+if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300){
+btn.style.opacity = "1";
+} else {
+btn.style.opacity = "0";
+}
+
+};
+
+btn.onclick = function(){
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+
+};
+
+</script>
+
 </body>
 
 </html>
+
 
 
 
