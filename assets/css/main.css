@@ -3947,6 +3947,122 @@ padding:0 !important;
 
 }
 
+/* =====================================================
+   CAPILART MOBILE OPTIMIZATION
+   ===================================================== */
+
+@media screen and (max-width: 768px){
+
+/* ---------------------------------
+1️⃣ eliminar background extraño
+--------------------------------- */
+
+#micro .image.fit.primary{
+display:none !important;
+height:0;
+margin:0;
+padding:0;
+}
+
+
+/* ---------------------------------
+2️⃣ centrar iconos ACABADOS
+--------------------------------- */
+
+.icons-grid li{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:40px 10px;
+}
+
+.icons-grid li img{
+display:block;
+margin-bottom:15px;
+}
+
+.icons-grid li h3{
+text-align:center;
+margin-top:10px;
+font-size:16px;
+letter-spacing:2px;
+}
+
+.icon-custom{
+width:70px;
+margin-bottom:15px;
+}
+
+
+/* ---------------------------------
+3️⃣ mejorar hero inicial
+--------------------------------- */
+
+#header{
+padding-top:80px;
+padding-bottom:80px;
+}
+
+#header h1{
+font-size:32px;
+line-height:1.2;
+}
+
+#header p{
+font-size:16px;
+letter-spacing:2px;
+}
+
+
+/* ---------------------------------
+4️⃣ ajustar foto proceso
+--------------------------------- */
+
+.foto-micro{
+width:100%;
+max-width:320px;
+margin:20px auto;
+display:block;
+}
+
+
+/* ---------------------------------
+5️⃣ mejorar espaciado general
+--------------------------------- */
+
+.main.special{
+padding:60px 20px;
+}
+
+
+/* ---------------------------------
+6️⃣ botones más cómodos
+--------------------------------- */
+
+.button{
+padding:14px 28px;
+font-size:14px;
+}
+
+
+/* ---------------------------------
+7️⃣ corregir grids móviles
+--------------------------------- */
+
+.cases-grid{
+grid-template-columns:1fr;
+gap:20px;
+}
+
+.instagram-grid{
+grid-template-columns:1fr 1fr;
+gap:12px;
+}
+
+}
+
 
 
 
