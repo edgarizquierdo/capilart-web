@@ -4363,12 +4363,11 @@ font-size:1.2rem;
 display:block;
 }
 
-/* botón scroll solo móvil */
+/* botón subir */
 
 #scrollTopBtn{
-display:none;
 position:fixed;
-bottom:90px;
+bottom:80px;
 right:20px;
 z-index:999;
 
@@ -4385,12 +4384,10 @@ font-size:20px;
 cursor:pointer;
 }
 
-/* solo visible en móvil */
+/* ocultar en escritorio */
 
-@media screen and (max-width:736px){
-
+@media screen and (min-width:737px){
 #scrollTopBtn{
-display:block;
+display:none;
 }
-
 }
