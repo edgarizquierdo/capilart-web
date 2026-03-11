@@ -4252,12 +4252,17 @@ img{
 }
 
 #micro .foto-micro{
-    display:block;
-    margin:40px auto;
-    max-width:240px;
-    width:100%;
-    height:auto;
-    border-radius:50%;
+
+width:240px;
+height:240px;
+
+display:block;
+margin:40px auto;
+
+border-radius:50%;
+
+object-fit:cover;
+
 }
 
 
