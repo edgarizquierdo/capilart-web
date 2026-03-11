@@ -4367,9 +4367,12 @@ display:block;
 
 #scrollTopBtn{
 position:fixed;
-bottom:80px;
-right:20px;
-z-index:999;
+
+bottom:90px !important;
+right:20px !important;
+left:auto !important;
+
+z-index:9999;
 
 background:#000;
 color:#fff;
