@@ -4251,59 +4251,32 @@ img{
     }
 }
 
-/* ===== FIX FOTO MICROCAPILAR ===== */
-
-.foto-micro{
-    width:100%;
-    max-width:320px;
-    height:auto;
-    display:block;
-    margin:30px auto;
-}
-
-/* evitar deformaciones de HTML5UP */
-.foto-micro img{
-    width:100%;
-    height:auto;
-    object-fit:cover;
-}
-
-/* asegurar proporción correcta en móvil */
-@media screen and (max-width:768px){
-
-.foto-micro{
-    max-width:260px;
-}
-
-}
-
-.image.fit img{
-    height:auto !important;
-}
-
-/* =================================
-   FIX IMAGEN PROCESO MICRO
-   ================================= */
+/* =========================
+   IMAGEN PROCESO CIRCULAR
+   ========================= */
 
 #micro .foto-micro{
 
-display:block;
-margin:30px auto;
+width:320px;
+height:320px;
 
-width:100%;
-max-width:320px;
-height:auto;
+display:block;
+margin:40px auto;
+
+border-radius:50%;
 
 object-fit:cover;
 
 }
 
 /* evitar que el template la estire */
-
 #micro img.foto-micro{
-width:auto !important;
-max-width:320px;
-height:auto !important;
+
+width:320px !important;
+height:320px !important;
+
+max-width:none;
+
 }
 
 /* ajuste móvil */
@@ -4312,7 +4285,8 @@ height:auto !important;
 
 #micro .foto-micro{
 
-max-width:260px;
+width:260px;
+height:260px;
 
 }
 
