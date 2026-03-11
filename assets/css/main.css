@@ -4358,3 +4358,7 @@ font-size:1.2rem;
 }
 
 }
+
+.hero-title span{
+display:block;
+}
