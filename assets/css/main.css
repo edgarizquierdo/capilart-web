@@ -4336,3 +4336,13 @@ height: auto;
 }
 
 }
+
+/* tamaño del título solo en teléfono */
+
+@media screen and (max-width: 736px){
+
+#header h1{
+font-size:1.7rem;
+}
+
+}
