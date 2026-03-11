@@ -4303,3 +4303,17 @@ img{
 
 }
 
+/* HERO titulo móvil */
+
+@media screen and (max-width: 736px){
+
+.titulo-hero{
+    font-size:2.4rem;
+    line-height:1.2;
+}
+
+.titulo-hero span{
+    display:block;
+}
+
+}
