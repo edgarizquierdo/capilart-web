@@ -4317,3 +4317,7 @@ img{
 }
 
 }
+
+#header h1{
+white-space:nowrap;
+}
