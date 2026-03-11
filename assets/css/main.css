@@ -4363,40 +4363,4 @@ font-size:1.2rem;
 display:block;
 }
 
-/* BOTON SCROLL SOLO MOVIL */
 
-#scrollTopBtn{
-
-position:fixed;
-right:20px;
-bottom:120px;
-
-width:45px;
-height:45px;
-
-background:rgba(0,0,0,0.65);
-color:white;
-
-border-radius:50%;
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-font-size:22px;
-
-cursor:pointer;
-
-z-index:9999;
-
-}
-
-/* ocultar en escritorio */
-
-@media (min-width:768px){
-
-#scrollTopBtn{
-display:none;
-}
-
-}
