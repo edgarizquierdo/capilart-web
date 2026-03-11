@@ -4362,3 +4362,35 @@ font-size:1.2rem;
 .hero-title span{
 display:block;
 }
+
+/* botón scroll solo móvil */
+
+#scrollTopBtn{
+display:none;
+position:fixed;
+bottom:90px;
+right:20px;
+z-index:999;
+
+background:#000;
+color:#fff;
+
+border:none;
+border-radius:50%;
+
+width:45px;
+height:45px;
+
+font-size:20px;
+cursor:pointer;
+}
+
+/* solo visible en móvil */
+
+@media screen and (max-width:736px){
+
+#scrollTopBtn{
+display:block;
+}
+
+}
