@@ -4251,6 +4251,32 @@ img{
     }
 }
 
+/* =================================
+   FIX FOTO MICROCAPILAR MÓVIL
+   ================================= */
 
+.foto-micro{
+    width:100%;
+    max-width:320px;
+    margin:25px auto;
+    display:block;
+}
+
+/* contenedor ovalado */
+.foto-micro{
+    border-radius:50%;
+    object-fit:cover;
+}
+
+/* evitar deformación en móvil */
+@media (max-width:768px){
+
+.foto-micro{
+    width:260px;
+    height:260px;
+    object-fit:cover;
+}
+
+}
 
 
