@@ -4252,31 +4252,29 @@ img{
 }
 
 /* =================================
-   FIX FOTO MICROCAPILAR MÓVIL
+   FIX IMAGEN MICROCAPILAR
    ================================= */
 
 .foto-micro{
-    width:100%;
-    max-width:320px;
-    margin:25px auto;
-    display:block;
+
+width:280px;
+height:280px;
+
+object-fit:cover;
+
+display:block;
+margin:30px auto;
+
+border-radius:50%;
+
 }
 
-/* contenedor ovalado */
-.foto-micro{
-    border-radius:50%;
-    object-fit:cover;
-}
+/* evitar que el template la estire */
 
-/* evitar deformación en móvil */
-@media (max-width:768px){
-
-.foto-micro{
-    width:260px;
-    height:260px;
-    object-fit:cover;
-}
-
+.image.fit img.foto-micro{
+width:auto !important;
+max-width:100%;
+height:auto;
 }
 
 
