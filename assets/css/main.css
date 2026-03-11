@@ -4265,17 +4265,18 @@ img{
     border-radius:50% !important;
 }
 
-/* ===============================
-   CENTRAR BOTÓN INSTAGRAM MÓVIL
-   =============================== */
+/* =================================
+   FIX CONTENEDOR MÓVIL
+   ================================= */
 
 @media screen and (max-width:768px){
 
-#instagram .button{
-display:block;
-margin:30px auto;
-text-align:center;
-max-width:280px;
+.container{
+    width:100% !important;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 }
