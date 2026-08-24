@@ -35,3 +35,14 @@
 .mujer-hero img{object-position:center 54%}
 .rapado-hero img{object-position:center 42%}
 .injerto-hero img{object-position:center 55%}
+
+/* V8: escala de logotipo y encuadres finales */
+.brand img{width:76px!important;max-height:66px!important;height:auto!important;object-fit:contain!important}
+.footer-grid>div:first-child>img{width:92px!important;max-height:92px!important;height:auto!important;object-fit:contain!important}
+.card img.density-card-image{object-position:center 78%!important}
+.injerto-hero img{object-position:center 48%!important}
+@media(max-width:640px){
+  .brand img{width:66px!important;max-height:58px!important}
+  .footer-grid>div:first-child>img{width:82px!important;max-height:82px!important}
+  .card img.density-card-image{object-position:center 80%!important}
+}
