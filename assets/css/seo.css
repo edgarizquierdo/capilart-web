@@ -46,3 +46,7 @@
   .footer-grid>div:first-child>img{width:82px!important;max-height:82px!important}
   .card img.density-card-image{object-position:center 80%!important}
 }
+
+/* V10 landing clinical photography */
+.card img[src*="zona-donante-landing"],.card img[src*="coronilla-landing"],.card img[src*="mujer-landing"],.card img[src*="alopecia-triangular-landing"]{object-position:center 38%;}
+.card img[src*="alopecia-triangular-landing"]{object-position:center 45%;}
