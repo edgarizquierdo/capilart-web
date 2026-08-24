@@ -9,3 +9,11 @@
 
 /* Real case library V5 */
 .case-stories{display:grid;gap:54px}.case-story{display:grid;grid-template-columns:minmax(300px,.9fr) 1.1fr;gap:42px;align-items:center;padding-bottom:54px;border-bottom:1px solid #282828}.case-story:nth-child(even){grid-template-columns:1.1fr minmax(300px,.9fr)}.case-story:nth-child(even) .comparison{order:2}.case-copy h2{font-size:clamp(1.65rem,3vw,2.6rem);margin:0 0 8px}.case-tags{color:var(--accent)!important;font-weight:700;font-size:.86rem;text-transform:uppercase;letter-spacing:.06em}.real-case-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.real-case-card{border:1px solid #292929;border-radius:22px;background:#121212;overflow:hidden}.real-case-card .comparison{border-radius:0;aspect-ratio:16/11}.real-case-card>div:last-child{padding:24px}.real-case-card h3{font-size:1.35rem}.real-case-card .more{color:var(--accent);text-decoration:none;font-weight:700}@media(max-width:800px){.case-story,.case-story:nth-child(even){grid-template-columns:1fr;gap:24px}.case-story:nth-child(even) .comparison{order:0}.real-case-grid{grid-template-columns:1fr}}
+
+/* Correcciones V6: comparador y logotipo de pie */
+.comparison{touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:ew-resize}
+.comparison.is-dragging{cursor:grabbing}
+.comparison img{-webkit-user-drag:none;user-drag:none;pointer-events:none}
+.comparison input{pointer-events:none}
+.footer-grid>div:first-child>img{width:130px!important;height:auto!important;aspect-ratio:1/1;object-fit:contain}
+.injerto-hero img{object-position:center 48%}
