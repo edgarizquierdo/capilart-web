@@ -93,3 +93,30 @@
 @media(max-width:700px){
   .featured-solutions{grid-template-columns:1fr}
 }
+
+
+/* V12 - últimos ajustes visuales landing */
+
+/* Efecto densidad: más presencia y sin aire innecesario sobre la cabeza */
+.featured-solution img.density-card-image{
+  aspect-ratio: 16/8.3 !important;
+  object-fit: cover !important;
+  object-position: center 76% !important;
+}
+
+/* Mujer: subir visualmente la cabeza dentro del encuadre para verla completa */
+.featured-solution img.woman-feature-image{
+  object-fit: cover !important;
+  object-position: center 72% !important;
+}
+
+/* En móvil mantenemos el foco en la cabeza */
+@media(max-width:700px){
+  .featured-solution img.density-card-image{
+    aspect-ratio: 16/9 !important;
+    object-position: center 76% !important;
+  }
+  .featured-solution img.woman-feature-image{
+    object-position: center 72% !important;
+  }
+}
