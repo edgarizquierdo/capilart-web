@@ -120,3 +120,17 @@
     object-position: center 72% !important;
   }
 }
+
+
+/* V13 - ajuste solicitado */
+.compact-solutions .card img.postinjerto-card-image{
+  object-fit: cover !important;
+  object-position: center 30% !important;
+  transform: scale(1.14);
+  transform-origin: center 34%;
+}
+
+/* Evita que la ampliación salga de los bordes redondeados de la tarjeta */
+.compact-solutions .card:has(img.postinjerto-card-image){
+  overflow: hidden;
+}
