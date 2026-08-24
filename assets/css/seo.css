@@ -17,3 +17,21 @@
 .comparison input{pointer-events:none}
 .footer-grid>div:first-child>img{width:130px!important;height:auto!important;aspect-ratio:1/1;object-fit:contain}
 .injerto-hero img{object-position:center 48%}
+
+/* V7: comparador sin escalado. Ambas imágenes conservan siempre exactamente el mismo tamaño. */
+.comparison{--compare-pos:50%;position:relative;overflow:hidden;touch-action:pan-y;cursor:ew-resize}
+.comparison>img,.comparison .before,.comparison .before img{position:absolute;inset:0;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover}
+.comparison .before{clip-path:inset(0 calc(100% - var(--compare-pos)) 0 0);overflow:visible!important;border-right:0!important}
+.comparison .before img{transform:none!important}
+.comparison .handle{left:var(--compare-pos)!important;z-index:5}
+.comparison .handle:before{content:"";position:absolute;left:50%;top:50%;width:2px;height:2000px;background:#fff;transform:translate(-50%,-50%);z-index:-1}
+.comparison input{position:absolute;inset:0;width:100%;height:100%;opacity:0;pointer-events:none}
+.comparison img{pointer-events:none;-webkit-user-drag:none;user-select:none}
+/* V7: logo transparente y encuadres de héroe */
+.brand img{object-fit:contain}
+.footer-grid>div:first-child>img{background:transparent!important;object-fit:contain!important}
+.mini-hero img{object-position:center center}
+.densidad-hero img{object-position:center 58%}
+.mujer-hero img{object-position:center 54%}
+.rapado-hero img{object-position:center 42%}
+.injerto-hero img{object-position:center 55%}

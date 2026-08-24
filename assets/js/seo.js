@@ -1,54 +1,58 @@
 document.querySelectorAll('.menu-btn').forEach(btn=>btn.addEventListener('click',()=>document.querySelector('.nav-links')?.classList.toggle('open')));
 
-// Comparadores antes/después: soporte robusto para ratón, trackpad, táctil y teclado.
+// Comparador V7: las dos fotos permanecen inmóviles; solo cambia una máscara de recorte.
 document.querySelectorAll('.comparison').forEach(box=>{
   const input=box.querySelector('input[type="range"]');
-  const before=box.querySelector('.before');
   const handle=box.querySelector('.handle');
-  if(!before || !handle) return;
+  if(!handle) return;
 
-  const setValue=(value)=>{
-    const n=Math.max(0,Math.min(100,Number(value)));
-    const v=n+'%';
-    before.style.width=v;
-    handle.style.left=v;
-    if(input) input.value=String(Math.round(n));
+  let value=Number(input?.value || 50);
+  const setValue=(n)=>{
+    value=Math.max(0,Math.min(100,Number(n)));
+    box.style.setProperty('--compare-pos', value+'%');
+    if(input) input.value=String(Math.round(value));
+    handle.setAttribute('aria-valuenow', String(Math.round(value)));
   };
+  setValue(value);
 
-  if(input){
-    input.addEventListener('input',e=>setValue(e.target.value));
-    setValue(input.value || 50);
-  } else {
-    setValue(50);
-  }
+  box.tabIndex=0;
+  box.setAttribute('role','slider');
+  box.setAttribute('aria-valuemin','0');
+  box.setAttribute('aria-valuemax','100');
+  box.setAttribute('aria-label', input?.getAttribute('aria-label') || 'Comparar antes y después');
 
-  const valueFromPointer=(clientX)=>{
-    const rect=box.getBoundingClientRect();
-    return ((clientX-rect.left)/rect.width)*100;
+  const fromX=(clientX)=>{
+    const r=box.getBoundingClientRect();
+    return ((clientX-r.left)/r.width)*100;
   };
 
   let dragging=false;
   box.addEventListener('pointerdown',e=>{
-    if(e.button!==undefined && e.button!==0) return;
+    if(e.pointerType==='mouse' && e.button!==0) return;
     dragging=true;
     box.classList.add('is-dragging');
-    try{ box.setPointerCapture(e.pointerId); }catch(_){ }
-    setValue(valueFromPointer(e.clientX));
+    if(e.pointerType==='mouse') e.preventDefault();
+    try{box.setPointerCapture(e.pointerId)}catch(_){}
+    setValue(fromX(e.clientX));
   });
   box.addEventListener('pointermove',e=>{
     if(!dragging) return;
-    setValue(valueFromPointer(e.clientX));
+    if(e.pointerType==='mouse') e.preventDefault();
+    setValue(fromX(e.clientX));
   });
-  const stop=(e)=>{
+  const stop=e=>{
     if(!dragging) return;
-    dragging=false;
-    box.classList.remove('is-dragging');
-    try{ box.releasePointerCapture(e.pointerId); }catch(_){ }
+    dragging=false; box.classList.remove('is-dragging');
+    try{box.releasePointerCapture(e.pointerId)}catch(_){}
   };
   box.addEventListener('pointerup',stop);
   box.addEventListener('pointercancel',stop);
-
-  // Evita que el navegador intente arrastrar la propia imagen.
+  box.addEventListener('keydown',e=>{
+    if(e.key==='ArrowLeft'){e.preventDefault();setValue(value-2)}
+    if(e.key==='ArrowRight'){e.preventDefault();setValue(value+2)}
+    if(e.key==='Home'){e.preventDefault();setValue(0)}
+    if(e.key==='End'){e.preventDefault();setValue(100)}
+  });
   box.querySelectorAll('img').forEach(img=>img.addEventListener('dragstart',e=>e.preventDefault()));
 });
 
