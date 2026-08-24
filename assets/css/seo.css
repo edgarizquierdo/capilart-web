@@ -134,3 +134,19 @@
 .compact-solutions .card:has(img.postinjerto-card-image){
   overflow: hidden;
 }
+
+
+/* V15 - tarjeta Después de un injerto alineada con el resto */
+.compact-solutions .card:has(img.postinjerto-card-image){
+  overflow: visible !important;
+}
+
+.compact-solutions .card img.postinjerto-card-image{
+  width: 100% !important;
+  aspect-ratio: 4 / 3 !important;
+  object-fit: cover !important;
+  object-position: center 46% !important;
+  transform: none !important;
+  transform-origin: center !important;
+  display: block !important;
+}
