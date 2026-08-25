@@ -1,3 +1,4 @@
-CAPILART BCN - VERSION V15
-Tarjeta Después de un injerto capilar alineada con el resto de módulos.
-Imagen sustituida por la nueva fotografía aportada.
+CAPILART BCN - V18 MOBILE
+Corrección responsive de la landing y del resto de la web.
+Se elimina el desbordamiento horizontal en móvil, se adapta el H1,
+se apilan los CTA y se limitan todos los bloques al ancho del viewport.
