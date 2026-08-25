@@ -1,3 +1,3 @@
-CAPILART BCN - V19 MOBILE HARD FIX
-Márgenes laterales móviles forzados, H1 reducido, textos contenidos y CTA apilados.
-Botones de portada abreviados a 'Valoración WhatsApp' y 'Tratamientos'.
+CAPILART BCN - V20
+Corrección móvil aplicada únicamente mediante media queries.
+El escritorio permanece igual que en V17.
