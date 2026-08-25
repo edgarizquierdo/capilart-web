@@ -556,3 +556,13 @@
   .cicatriz-hero{max-height:320px;}
   .cicatriz-hero img{height:320px;object-position:center 66%;}
 }
+
+/* V25 · Instagram visible + ajuste móvil solicitado (26/08/2026) */
+.btn.instagram-btn{background:transparent;color:#fff;border-color:#6a6a6a}
+.btn.instagram-btn:hover{border-color:var(--accent);color:var(--accent)}
+.footer-instagram{color:var(--accent)!important;font-weight:700}
+@media (max-width:700px){
+  /* Solo móvil: separa unos milímetros CAPILART BCN · BARCELONA del borde superior. */
+  .hero-grid{padding-top:54px!important}
+  .hero-actions .instagram-btn{border-color:#555!important}
+}
