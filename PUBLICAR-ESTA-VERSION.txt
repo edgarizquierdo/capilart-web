@@ -1,3 +1,3 @@
-CAPILART BCN - V22
-Pulido móvil seguro: columna más estrecha, texto con longitud controlada y CTA compactos.
-Todas las reglas visuales nuevas están limitadas a max-width:700px; escritorio permanece como V17.
+CAPILART BCN - V23
+Responsive global móvil aplicado a todas las páginas internas.
+La landing conserva el comportamiento de V22 y escritorio permanece intacto.

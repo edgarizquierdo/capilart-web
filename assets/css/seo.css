@@ -313,3 +313,238 @@
     font-size:11.5px !important;
   }
 }
+
+
+/* =========================================================
+   V23 · RESPONSIVE GLOBAL PARA PÁGINAS INTERNAS
+   SOLO móvil. Escritorio queda intacto.
+   ========================================================= */
+
+@media (max-width:700px){
+
+  /* Seguridad global */
+  html, body{
+    width:100% !important;
+    max-width:100% !important;
+    overflow-x:hidden !important;
+  }
+
+  body *,
+  body *::before,
+  body *::after{
+    box-sizing:border-box;
+  }
+
+  img, video, svg, canvas{
+    max-width:100%;
+  }
+
+  /* Breadcrumbs */
+  .breadcrumbs,
+  .breadcrumb,
+  [class*="breadcrumb"]{
+    width:100% !important;
+    max-width:100% !important;
+    white-space:normal !important;
+    overflow-wrap:break-word !important;
+  }
+
+  /* Todos los heroes de páginas internas */
+  .page-hero,
+  .page-hero .wrap,
+  .page-hero-grid,
+  .page-hero-grid > *,
+  .inner-hero,
+  .inner-hero .wrap,
+  .inner-hero-grid,
+  .inner-hero-grid > *,
+  .service-hero,
+  .service-hero .wrap,
+  .about-hero,
+  .about-hero .wrap{
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+    box-sizing:border-box !important;
+  }
+
+  .page-hero,
+  .inner-hero,
+  .service-hero,
+  .about-hero{
+    overflow:hidden !important;
+  }
+
+  /* Márgenes seguros para cualquier hero interno */
+  .page-hero .wrap,
+  .inner-hero .wrap,
+  .service-hero .wrap,
+  .about-hero .wrap{
+    width:calc(100vw - 48px) !important;
+    max-width:calc(100vw - 48px) !important;
+    margin-left:24px !important;
+    margin-right:24px !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+  }
+
+  /* Títulos largos internos */
+  .page-hero h1,
+  .inner-hero h1,
+  .service-hero h1,
+  .about-hero h1,
+  main > section:first-of-type h1{
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+    font-size:36px !important;
+    line-height:1.03 !important;
+    letter-spacing:-1px !important;
+    white-space:normal !important;
+    overflow-wrap:break-word !important;
+    word-break:normal !important;
+    margin-right:0 !important;
+  }
+
+  /* Subtítulos / intros de hero */
+  .page-hero .lead,
+  .inner-hero .lead,
+  .service-hero .lead,
+  .about-hero .lead,
+  .page-hero p,
+  .inner-hero p,
+  .service-hero p,
+  .about-hero p{
+    width:100% !important;
+    max-width:31ch !important;
+    min-width:0 !important;
+    font-size:15px !important;
+    line-height:1.58 !important;
+    white-space:normal !important;
+    overflow-wrap:break-word !important;
+    word-break:normal !important;
+  }
+
+  /* CTAs internos */
+  .page-hero .actions,
+  .page-hero .hero-actions,
+  .inner-hero .actions,
+  .inner-hero .hero-actions,
+  .service-hero .actions,
+  .service-hero .hero-actions,
+  .about-hero .actions,
+  .about-hero .hero-actions{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:flex-start !important;
+    gap:11px !important;
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+  }
+
+  .page-hero .btn,
+  .inner-hero .btn,
+  .service-hero .btn,
+  .about-hero .btn{
+    width:auto !important;
+    min-width:210px !important;
+    max-width:280px !important;
+    min-height:48px !important;
+    padding:12px 18px !important;
+    font-size:12px !important;
+    line-height:1.15 !important;
+    white-space:normal !important;
+    text-align:center !important;
+  }
+
+  /* Rejillas y columnas internas a una sola columna cuando haga falta */
+  .two-col,
+  .about-grid,
+  .service-grid,
+  .contact-grid,
+  .price-grid,
+  .faq-grid,
+  .case-detail-grid,
+  .content-grid{
+    grid-template-columns:minmax(0,1fr) !important;
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+  }
+
+  .two-col > *,
+  .about-grid > *,
+  .service-grid > *,
+  .contact-grid > *,
+  .price-grid > *,
+  .faq-grid > *,
+  .case-detail-grid > *,
+  .content-grid > *{
+    min-width:0 !important;
+    max-width:100% !important;
+  }
+
+  /* Títulos de secciones también seguros */
+  main h2,
+  main h3{
+    max-width:100% !important;
+    overflow-wrap:break-word !important;
+    word-break:normal !important;
+  }
+
+  /* Textos largos */
+  main p,
+  main li,
+  main a{
+    overflow-wrap:break-word;
+  }
+
+  /* Botones fuera de hero */
+  main .btn{
+    max-width:100%;
+    white-space:normal;
+  }
+
+  /* Formularios */
+  form,
+  input,
+  textarea,
+  select{
+    max-width:100% !important;
+  }
+}
+
+@media (max-width:390px){
+
+  .page-hero .wrap,
+  .inner-hero .wrap,
+  .service-hero .wrap,
+  .about-hero .wrap{
+    width:calc(100vw - 36px) !important;
+    max-width:calc(100vw - 36px) !important;
+    margin-left:18px !important;
+    margin-right:18px !important;
+  }
+
+  .page-hero h1,
+  .inner-hero h1,
+  .service-hero h1,
+  .about-hero h1,
+  main > section:first-of-type h1{
+    font-size:33px !important;
+    letter-spacing:-.8px !important;
+  }
+
+  .page-hero .lead,
+  .inner-hero .lead,
+  .service-hero .lead,
+  .about-hero .lead,
+  .page-hero p,
+  .inner-hero p,
+  .service-hero p,
+  .about-hero p{
+    max-width:29ch !important;
+    font-size:14.5px !important;
+  }
+}
