@@ -1,3 +1,3 @@
-CAPILART BCN - V20
-Corrección móvil aplicada únicamente mediante media queries.
-El escritorio permanece igual que en V17.
+CAPILART BCN - V21
+Pulido exclusivo de la versión móvil: márgenes, tipografía y CTA.
+Escritorio sin cambios respecto a V17.
