@@ -548,3 +548,11 @@
     font-size:14.5px !important;
   }
 }
+
+/* V24 ajuste puntual cicatrices + WhatsApp */
+.cicatriz-hero img{object-position:center 68%;}
+.whatsapp img{background:transparent;}
+@media(max-width:640px){
+  .cicatriz-hero{max-height:320px;}
+  .cicatriz-hero img{height:320px;object-position:center 66%;}
+}
