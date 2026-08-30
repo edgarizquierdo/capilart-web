@@ -566,3 +566,21 @@
   .hero-grid{padding-top:54px!important}
   .hero-actions .instagram-btn{border-color:#555!important}
 }
+
+
+/* V26 · Información legal y privacidad (30/08/2026) */
+.legal-links{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:12px;font-size:12px}
+.legal-links a{color:var(--muted);text-decoration:none}
+.legal-links a:hover{color:var(--accent)}
+.legal-page{max-width:900px}
+.legal-page h2{margin-top:34px}
+.legal-page h3{margin-top:24px}
+.legal-page p,.legal-page li{line-height:1.75}
+.legal-page ul{padding-left:22px}
+.legal-meta{padding:16px 18px;border:1px solid rgba(255,255,255,.12);border-radius:10px;margin:20px 0 28px}
+.privacy-first-layer{margin:6px 0 18px;font-size:12px;line-height:1.55;color:var(--muted)}
+.privacy-first-layer p{margin:0 0 10px}
+.privacy-first-layer a,.legal a{color:var(--accent)}
+.privacy-check{display:flex;align-items:flex-start;gap:9px;cursor:pointer}
+.privacy-check input{width:18px;height:18px;min-width:18px;margin-top:2px}
+@media(max-width:700px){.legal-links{gap:8px 14px}.legal-page{width:100%}}
