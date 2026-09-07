@@ -12,3 +12,11 @@ Versión ampliada de contenido y arquitectura SEO.
 - Arquitectura multipágina, canonicals, sitemap, robots y schema conservados.
 - No publicar afirmaciones médicas ni credenciales no verificadas.
 - Pendiente antes de producción: enriquecer casos reales con datos aportados por Edgar, validar EmailJS, Search Console y Google Business Profile.
+
+
+OPTIMIZACIÓN IA / GEO (07-09-2026)
+- Entidad CapilArt BCN + fundador Edgar reforzada en datos estructurados.
+- FAQPage añadido a la página de preguntas frecuentes.
+- OAI-SearchBot permitido explícitamente en robots.txt.
+- llms.txt añadido como resumen legible para agentes compatibles.
+- Texto de identidad y especialización añadido a la home.
