@@ -1,5 +1,4 @@
 CAPILART BCN - V23
 Responsive global móvil aplicado a todas las páginas internas.
 La landing conserva el comportamiento de V22 y escritorio permanece intacto.
-
-Actualización 12-09-2026: favicon oficial exacto proporcionado por CapilArt BCN, sin modificación de diseño.
+Actualización 13-09-2026: favicon oficial sin rediseño; únicamente recortado al contenido visible y escalado a 96x96 para Google. Declaración HTML simplificada.
