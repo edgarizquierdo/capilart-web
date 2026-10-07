@@ -1,0 +1,52 @@
+CAPILART BCN — SEO MULTILINGÜE
+
+Objetivo: diferenciar intención de búsqueda por idioma y página, evitando que todas las URLs compitan por la misma keyword.
+
+ES | index.html                                                        | TITLE 50 | DESC 143 | H1: Micropigmentación capilar en Barcelona
+ES | micropigmentacion-capilar-densidad/index.html                     | TITLE 55 | DESC 155 | H1: Micropigmentación capilar efecto densidad en Barcelona
+ES | micropigmentacion-capilar-mujer/index.html                        | TITLE 56 | DESC 142 | H1: Micropigmentación capilar para mujer en Barcelona
+ES | micropigmentacion-efecto-rapado/index.html                        | TITLE 56 | DESC 150 | H1: Micropigmentación capilar efecto rapado en Barcelona
+ES | micropigmentacion-despues-injerto-capilar/index.html              | TITLE 54 | DESC 143 | H1: Micropigmentación después de un injerto capilar en Barcelona
+ES | micropigmentacion-cicatrices/index.html                           | TITLE 49 | DESC 155 | H1: Micropigmentación de cicatrices FUE y FUSS en Barcelona
+ES | especialista-micropigmentacion-capilar-barcelona/index.html       | TITLE 56 | DESC 136 | H1: Edgar, especialista en micropigmentación capilar en Barcelona
+ES | precio-micropigmentacion-capilar-barcelona/index.html             | TITLE 53 | DESC 151 | H1: Precio de la micropigmentación capilar en Barcelona
+ES | casos-micropigmentacion-capilar/index.html                        | TITLE 53 | DESC 140 | H1: Micropigmentación capilar antes y después en Barcelona
+ES | guia-micropigmentacion-capilar-barcelona/index.html               | TITLE 55 | DESC 152 | H1: Guía de micropigmentación capilar en Barcelona
+ES | preguntas-frecuentes-micropigmentacion-capilar/index.html         | TITLE 52 | DESC 143 | H1: Preguntas frecuentes sobre micropigmentación capilar
+ES | contacto/index.html                                               | TITLE 57 | DESC 145 | H1: Valoración de micropigmentación capilar en Barcelona
+ES | casos/micropigmentacion-densidad-pelo-largo/index.html            | TITLE 54 | DESC 140 | H1: Micropigmentación capilar de densidad con pelo largo
+ES | casos/micropigmentacion-efecto-rapado-linea-frontal/index.html    | TITLE 54 | DESC 135 | H1: Micropigmentación efecto rapado y línea frontal
+ES | casos/micropigmentacion-coronilla-densidad/index.html             | TITLE 55 | DESC 141 | H1: Micropigmentación capilar de coronilla y densidad
+ES | casos/micropigmentacion-mujer-alopecia-difusa/index.html          | TITLE 51 | DESC 140 | H1: Micropigmentación capilar para mujer con alopecia difusa
+CA | index.html                                                        | TITLE 51 | DESC 148 | H1: Micropigmentació capil·lar a Barcelona
+CA | micropigmentacion-capilar-densidad/index.html                     | TITLE 56 | DESC 153 | H1: Micropigmentació capil·lar efecte densitat a Barcelona
+CA | micropigmentacion-capilar-mujer/index.html                        | TITLE 56 | DESC 133 | H1: Micropigmentació capil·lar per a dona a Barcelona
+CA | micropigmentacion-efecto-rapado/index.html                        | TITLE 54 | DESC 149 | H1: Micropigmentació capil·lar efecte rapat a Barcelona
+CA | micropigmentacion-despues-injerto-capilar/index.html              | TITLE 56 | DESC 147 | H1: Micropigmentació després d’un trasplantament capil·lar a Barcelona
+CA | micropigmentacion-cicatrices/index.html                           | TITLE 47 | DESC 147 | H1: Micropigmentació de cicatrius FUE i FUSS a Barcelona
+CA | especialista-micropigmentacion-capilar-barcelona/index.html       | TITLE 57 | DESC 136 | H1: Edgar, especialista en micropigmentació capil·lar a Barcelona
+CA | precio-micropigmentacion-capilar-barcelona/index.html             | TITLE 52 | DESC 143 | H1: Preu de la micropigmentació capil·lar a Barcelona
+CA | casos-micropigmentacion-capilar/index.html                        | TITLE 54 | DESC 142 | H1: Micropigmentació capil·lar abans i després a Barcelona
+CA | guia-micropigmentacion-capilar-barcelona/index.html               | TITLE 56 | DESC 143 | H1: Guia de micropigmentació capil·lar a Barcelona
+CA | preguntas-frecuentes-micropigmentacion-capilar/index.html         | TITLE 52 | DESC 133 | H1: Preguntes freqüents sobre micropigmentació capil·lar
+CA | contacto/index.html                                               | TITLE 57 | DESC 148 | H1: Valoració de micropigmentació capil·lar a Barcelona
+CA | casos/micropigmentacion-densidad-pelo-largo/index.html            | TITLE 54 | DESC 141 | H1: Micropigmentació capil·lar de densitat amb cabell llarg
+CA | casos/micropigmentacion-efecto-rapado-linea-frontal/index.html    | TITLE 51 | DESC 137 | H1: Micropigmentació efecte rapat i línia frontal
+CA | casos/micropigmentacion-coronilla-densidad/index.html             | TITLE 52 | DESC 138 | H1: Micropigmentació capil·lar de coroneta i densitat
+CA | casos/micropigmentacion-mujer-alopecia-difusa/index.html          | TITLE 48 | DESC 121 | H1: Micropigmentació capil·lar per a dona amb alopècia difusa
+EN | index.html                                                        | TITLE 54 | DESC 142 | H1: Scalp micropigmentation in Barcelona
+EN | micropigmentacion-capilar-densidad/index.html                     | TITLE 47 | DESC 150 | H1: Density scalp micropigmentation in Barcelona
+EN | micropigmentacion-capilar-mujer/index.html                        | TITLE 55 | DESC 144 | H1: Scalp micropigmentation for women in Barcelona
+EN | micropigmentacion-efecto-rapado/index.html                        | TITLE 51 | DESC 150 | H1: Shaved-effect scalp micropigmentation in Barcelona
+EN | micropigmentacion-despues-injerto-capilar/index.html              | TITLE 50 | DESC 144 | H1: Scalp micropigmentation after a hair transplant in Barcelona
+EN | micropigmentacion-cicatrices/index.html                           | TITLE 51 | DESC 149 | H1: Scalp micropigmentation for FUE and FUT/FUSS scars in Barcelona
+EN | especialista-micropigmentacion-capilar-barcelona/index.html       | TITLE 52 | DESC 137 | H1: Edgar, scalp micropigmentation specialist in Barcelona
+EN | precio-micropigmentacion-capilar-barcelona/index.html             | TITLE 53 | DESC 146 | H1: Scalp micropigmentation prices in Barcelona
+EN | casos-micropigmentacion-capilar/index.html                        | TITLE 50 | DESC 144 | H1: Scalp micropigmentation before and after in Barcelona
+EN | guia-micropigmentacion-capilar-barcelona/index.html               | TITLE 56 | DESC 147 | H1: Scalp micropigmentation guide in Barcelona
+EN | preguntas-frecuentes-micropigmentacion-capilar/index.html         | TITLE 43 | DESC 145 | H1: Scalp micropigmentation FAQ
+EN | contacto/index.html                                               | TITLE 57 | DESC 150 | H1: Scalp micropigmentation consultation in Barcelona
+EN | casos/micropigmentacion-densidad-pelo-largo/index.html            | TITLE 42 | DESC 155 | H1: Density scalp micropigmentation for long hair
+EN | casos/micropigmentacion-efecto-rapado-linea-frontal/index.html    | TITLE 45 | DESC 135 | H1: Shaved-effect scalp micropigmentation and hairline
+EN | casos/micropigmentacion-coronilla-densidad/index.html             | TITLE 49 | DESC 138 | H1: Crown scalp micropigmentation for density
+EN | casos/micropigmentacion-mujer-alopecia-difusa/index.html          | TITLE 44 | DESC 148 | H1: Female scalp micropigmentation for diffuse thinning
