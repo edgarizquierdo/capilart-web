@@ -584,3 +584,68 @@
 .privacy-check{display:flex;align-items:flex-start;gap:9px;cursor:pointer}
 .privacy-check input{width:18px;height:18px;min-width:18px;margin-top:2px}
 @media(max-width:700px){.legal-links{gap:8px 14px}.legal-page{width:100%}}
+
+
+/* Selector de idioma integrado en cabecera, estilo Arcadia */
+.capilart-lang-switcher{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  margin-left:auto;
+  color:#fff;
+  font:700 12px/1.2 Arial,Helvetica,sans-serif;
+  letter-spacing:.08em;
+  white-space:nowrap;
+  flex:0 0 auto;
+}
+.capilart-lang-switcher a{
+  color:#fff!important;
+  text-decoration:none!important;
+  opacity:.48;
+  margin:0;
+}
+.capilart-lang-switcher a:hover,
+.capilart-lang-switcher a.active{
+  opacity:1;
+}
+.capilart-lang-switcher a.active{
+  text-decoration:underline!important;
+  text-underline-offset:4px;
+  text-decoration-thickness:2px!important;
+}
+
+@media(max-width:980px){
+  .site-header .nav{position:relative;}
+  .site-header .capilart-lang-switcher{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+    z-index:2;
+    font-size:12px;
+    gap:7px;
+    background:transparent;
+    padding:0;
+    border-radius:0;
+    box-shadow:none;
+    backdrop-filter:none;
+  }
+  .site-header .menu-btn{
+    margin-left:auto;
+    position:relative;
+    z-index:3;
+  }
+  .site-header .brand{
+    position:relative;
+    z-index:3;
+  }
+}
+
+@media(max-width:390px){
+  .site-header .capilart-lang-switcher{
+    font-size:11px;
+    gap:5px;
+  }
+  .site-header .brand img{width:92px;}
+}
